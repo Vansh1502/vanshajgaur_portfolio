@@ -1,0 +1,24 @@
+import type { Metadata } from 'next'
+import About from '@/components/sections/About'
+import JsonLd from '@/components/JsonLd'
+import { aboutPageSchema } from '@/lib/seo'
+import { SITE } from '@/lib/site'
+
+const description =
+  'Learn about Vanshaj Gaur — an AI Implementation Engineer in the AI Labs team at Axestrack, based in Jaipur, India.'
+
+export const metadata: Metadata = {
+  title: 'About',
+  description,
+  alternates: { canonical: '/about' },
+  openGraph: { title: `About — ${SITE.name}`, description, url: '/about' },
+}
+
+export default function AboutPage() {
+  return (
+    <main id="main-content" tabIndex={-1} className="min-h-screen pt-24 md:pt-28 focus:outline-none">
+      <JsonLd schema={aboutPageSchema()} />
+      <About />
+    </main>
+  )
+}
