@@ -48,9 +48,7 @@ export const SITE = {
     'AI Implementation Engineer at Axestrack AI Labs — putting machine learning and intelligent automation to work inside live logistics and fleet operations, from first integration to production rollout.',
   url: SITE_URL,
 
-  // [PLACEHOLDER] example.com is reserved for documentation, so this is safe
-  // to ship without impersonating a real inbox. Replace before launch.
-  email: 'vanshajgaur@example.com',
+  email: process.env.EMAIL_USER ?? 'vanshajgaur946269@gmail.com',
 
   // [VERIFIED] status line — he is currently in this role.
   availability: 'AI Implementation Engineer @ Axestrack',

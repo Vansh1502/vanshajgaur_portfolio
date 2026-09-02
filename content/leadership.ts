@@ -9,39 +9,40 @@ import type { LeadershipRole } from '@/types'
 export const LEADERSHIP_ROLES: LeadershipRole[] = [
   {
     _id: '1',
-    title: 'Role or initiative',
-    organisation: 'Organisation',
-    period: 'Period',
+    title: 'Vice Chair',
+    organisation: 'IEEE CIS PIET',
+    period: 'Jan 2024 - Jul 2025 · 1 yr 7 mos',
     description:
-      'Placeholder — what Vanshaj led, and what the group was trying to achieve. One short paragraph is plenty.',
+      'Led a 15-member student team and helped drive AI/ML initiatives for the student community at PIET.',
     impact: [
-      'What changed because he ran it — attendance, output, people trained.',
-      'A second concrete outcome, ideally with a number attached.',
+      'Organized 5+ AI/ML workshops with 200+ attendees across the campus community.',
+      'Mentored students in AI/ML, encouraging research and learning in NLP and computer vision.',
     ],
     icon: 'users',
   },
   {
     _id: '2',
-    title: 'Role or initiative',
-    organisation: 'Organisation',
-    period: 'Period',
+    title: 'Student Mentor',
+    organisation: 'AI/ML Community Initiatives',
+    period: '2024 - 2025',
     description:
-      'Placeholder — mentoring, community organising, or internal enablement work all fit this section well.',
+      'Supported peer learning and skill-building by guiding students through project-based AI and machine learning work.',
     impact: [
-      'The outcome that made this worth listing.',
-      'A second point, or delete the line.',
+      'Helped more students explore practical AI applications beyond classroom theory.',
+      'Promoted collaboration and research-minded problem solving within the community.',
     ],
     icon: 'star',
   },
   {
     _id: '3',
-    title: 'Role or initiative',
-    organisation: 'Organisation',
-    period: 'Period',
+    title: 'Community Builder',
+    organisation: 'IEEE CIS PIET',
+    period: '2024 - 2025',
     description:
-      'Placeholder — three cards fill the row cleanly. Add more and the section grows a "Show more" control automatically.',
+      'Contributed to building an active technical learning culture through workshops, engagement, and student support.',
     impact: [
-      'Keep each bullet to one line so the cards stay the same height.',
+      'Strengthened participation in technical events and hands-on learning experiences.',
+      'Created pathways for students to explore emerging AI and ML domains together.',
     ],
     icon: 'trophy',
   },
