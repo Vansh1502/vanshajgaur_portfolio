@@ -52,8 +52,16 @@ export default function About() {
 
           {RESUME && (
             <div className="pt-4">
-              <Button as="a" href={RESUME.href} target="_blank" rel="noopener noreferrer" variant="secondary" className="text-sm">
-                View Resume
+              <Button
+                as="a"
+                href={RESUME.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                variant="secondary"
+                className="text-sm"
+              >
+                Download Resume
               </Button>
             </div>
           )}

@@ -62,7 +62,8 @@ export const SITE = {
     github: '',
   },
   // [PLACEHOLDER] a public resume link (Drive, Dropbox, etc.).
-  resumeUrl: '',
+  // Set NEXT_PUBLIC_RESUME_URL in production/local env to show the resume download CTA.
+  resumeUrl: process.env.NEXT_PUBLIC_RESUME_URL ?? '',
 } as const
 
 /** Alma mater used in JSON-LD. [PLACEHOLDER] — omitted until confirmed. */
