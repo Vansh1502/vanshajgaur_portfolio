@@ -18,7 +18,7 @@ export default function Leadership() {
       <SectionHeader
         sectionId="leadership"
         title="Leadership & Community"
-        subtitle="Leading teams, running events, and building technical communities."
+        subtitle="Team leadership, student representation, mentoring and contributions beyond the day-to-day role."
       />
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
