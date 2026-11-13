@@ -32,11 +32,12 @@ export type SkillTier = 'core' | 'production' | 'working'
 
 export type SkillCategoryId =
   | 'ai'
-  | 'ml'
+  | 'bi'
   | 'data'
-  | 'integration'
-  | 'platform'
-  | 'domain'
+  | 'engineering'
+  | 'automation'
+  | 'product'
+  | 'tools'
 
 export interface Skill {
   _id: string
