@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   },
   description: SITE.description,
   keywords: [
-    'Vanshaj Gaur', 'AI implementation engineer', 'AI engineer', 'machine learning engineer',
-    'applied AI', 'intelligent automation', 'logistics technology', 'fleet telematics',
-    'Axestrack', 'portfolio', 'Jaipur',
+    'Manisha Bhardwaj', 'Senior Data Analyst', 'Data Science & Analytics Lead',
+    'data analytics', 'business intelligence', 'data engineering', 'product ownership',
+    'workflow automation', 'PostgreSQL', 'Power BI', 'Axestrack', 'SVNIT', 'Jaipur',
   ],
   authors: [{ name: SITE.name, url: SITE.url }],
   creator: SITE.name,
