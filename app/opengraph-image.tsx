@@ -55,7 +55,7 @@ export default function OpengraphImage() {
         </div>
 
         <div style={{ fontSize: 30, color: '#94a3b8', marginTop: 32, maxWidth: 900 }}>
-          Applied AI, intelligent automation, and data products inside live logistics operations.
+          Data science, business intelligence, product ownership, and workflow automation.
         </div>
 
         <div style={{ position: 'absolute', bottom: 72, left: 80, fontSize: 26, color: '#64748b' }}>
