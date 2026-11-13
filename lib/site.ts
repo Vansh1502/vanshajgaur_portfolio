@@ -1,7 +1,7 @@
 /**
  * Single source of truth for Manisha Bhardwaj's professional profile.
  */
-export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://manishabhardwaj.com').replace(/\/$/, '')
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? 'https://manishabhardwaj.example').replace(/\/$/, '')
 export const WHATSAPP_NUMBER = (process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '').replace(/[^\d]/g, '')
 export const WHATSAPP_GREETING = 'Hi Manisha, I found your portfolio and would like to connect.'
 export function whatsappUrl(message = WHATSAPP_GREETING): string | null {
