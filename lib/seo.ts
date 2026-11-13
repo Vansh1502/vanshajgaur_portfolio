@@ -54,10 +54,6 @@ export function personSchema() {
       'Sentiment Analytics',
       'Financial Data Quality',
     ],
-    knowsLanguage: [
-      { '@type': 'Language', name: 'English' },
-      { '@type': 'Language', name: 'Hindi' },
-    ],
     sameAs: SAME_AS,
     hasCredential: CERTIFICATIONS.map((cert) => ({
       '@type': 'EducationalOccupationalCredential',
