@@ -47,7 +47,7 @@ export default function Footer() {
               &lt;{SITE.initials} /&gt;
             </Link>
             <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed max-w-xs">
-              AI Implementation Engineer putting machine learning and automation to work inside live logistics operations.
+              Senior Data Analyst building data products, analytics systems and automation that help teams make better decisions.
             </p>
             <p className="inline-flex items-center gap-1.5 text-sm text-slate-600 dark:text-slate-400">
               <MapPin size={14} className="text-blue-600 dark:text-blue-400 shrink-0" />

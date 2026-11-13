@@ -6,7 +6,7 @@ import { contactPageSchema } from '@/lib/seo'
 import { SITE } from '@/lib/site'
 
 const description =
-  'Get in touch with Vanshaj Gaur — open to AI implementation roles, consulting, and collaboration.'
+  'Contact Manisha Bhardwaj for professional enquiries, analytics leadership, product analytics and collaboration.'
 
 export const metadata: Metadata = {
   title: 'Contact',

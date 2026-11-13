@@ -19,7 +19,7 @@ export default function About() {
       <SectionHeader
         sectionId="about"
         title="About Me"
-        subtitle="I care less about the model that wins the benchmark and more about the one that survives contact with a real operation."
+        subtitle="I turn business questions into data products, dependable workflows and decisions teams can act on."
       />
 
       <div className="grid lg:grid-cols-2 gap-16 items-start">
@@ -28,20 +28,26 @@ export default function About() {
           className="space-y-6"
         >
           <p className="text-slate-700 dark:text-slate-300 text-lg leading-relaxed text-left">
-            Hey! I&apos;m <span className="text-blue-700 dark:text-blue-400 font-semibold">{SITE.firstName}</span>, an{' '}
-            {SITE.primaryRole} in{' '}
-            <span className="text-sky-600 dark:text-sky-400 font-semibold">{SITE.company}&apos;s {SITE.team}</span>{' '}
-            team, working on the part of AI that decides whether any of it was worth building — the rollout.
+            I&apos;m <span className="text-blue-700 dark:text-blue-400 font-semibold">{SITE.firstName}</span>, a{' '}
+            {SITE.primaryRole} at{' '}
+            <span className="text-sky-600 dark:text-sky-400 font-semibold">{SITE.company}</span>, where I helped establish
+            the {SITE.team} function and now lead a team of five.
           </p>
           <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-left">
-            {SITE.company} runs a digital logistics platform used across fleet, yard and transport operations, so the
-            systems I work on are wired into vehicles, trips and exceptions that are moving right now. That changes the
-            job: the interesting problems are integration, messy data, latency, and the gap between a model that scores
-            well and one that an operations team will actually trust.
+            I partner with senior leadership to translate business requirements into reliable data pipelines,
+            dashboards and automated workflows across Finance, Operations, Sales, Customer Success, Product and IT.
+            My work connects data engineering, business intelligence and product ownership — from KPI design and
+            API integrations to requirements, PRDs, UAT and rollout.
           </p>
           <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-left">
-            I like being the person who stays with a feature past launch — through the edge cases, the retraining, and
-            the unglamorous work of making sure it is still being used three months later.
+            I care about measurable outcomes: automating 96% of recurring MIS reporting, saving 400+ man-hours
+            each month, reducing the monthly billing cycle from 30 days to 3, and bringing 40–50 data sources into
+            near real-time pipelines.
+          </p>
+          <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-left">
+            I hold a B.Tech in Electronics and Communication Engineering from SVNIT Surat (CGPA 8.66/10).
+            Recognition includes the Brainiac Award, HackerRank SQL 4-Star Silver Badge, WomenHack Diva
+            Semi-Finalist and Microsoft Learn Student Ambassador.
           </p>
 
           <div className="flex flex-wrap gap-2 pt-2">

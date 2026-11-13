@@ -5,7 +5,7 @@ import { breadcrumbSchema } from '@/lib/seo'
 import { SITE } from '@/lib/site'
 
 const description =
-  'Selected work by Vanshaj Gaur — applied AI, automation, and data projects built for real operations.'
+  'Selected projects by Manisha Bhardwaj across internal product development, employee performance analytics, and communication intelligence.'
 
 export const metadata: Metadata = {
   title: 'Projects',

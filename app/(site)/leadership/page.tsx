@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd'
 import { breadcrumbSchema } from '@/lib/seo'
 import { SITE } from '@/lib/site'
 
-const description = 'Leadership and community roles of Vanshaj Gaur.'
+const description = 'Leadership, mentoring and professional contributions of Manisha Bhardwaj.'
 
 export const metadata: Metadata = {
   title: 'Leadership',

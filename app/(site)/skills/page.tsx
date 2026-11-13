@@ -5,7 +5,7 @@ import { breadcrumbSchema } from '@/lib/seo'
 import { SITE } from '@/lib/site'
 
 const description =
-  'Technical skills of Vanshaj Gaur across applied AI, data, integration, and logistics platform work.'
+  'Technical skills of Manisha Bhardwaj across SQL, Python, business intelligence, data engineering, automation and product ownership.'
 
 export const metadata: Metadata = {
   title: 'Skills',

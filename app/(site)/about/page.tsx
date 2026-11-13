@@ -5,7 +5,7 @@ import { aboutPageSchema } from '@/lib/seo'
 import { SITE } from '@/lib/site'
 
 const description =
-  'Learn about Vanshaj Gaur — an AI Implementation Engineer in the AI Labs team at Axestrack, based in Jaipur, India.'
+  'Learn about Manisha Bhardwaj — Senior Data Analyst and Data Science & Analytics Lead at Axestrack, based in Jaipur, India.'
 
 export const metadata: Metadata = {
   title: 'About',

@@ -4,7 +4,7 @@ import JsonLd from '@/components/JsonLd'
 import { breadcrumbSchema } from '@/lib/seo'
 import { SITE } from '@/lib/site'
 
-const description = 'Professional certifications earned by Vanshaj Gaur in AI, data, and cloud.'
+const description = 'No formal certifications are listed in the supplied profile materials.'
 
 export const metadata: Metadata = {
   title: 'Certifications',

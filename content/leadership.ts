@@ -1,55 +1,30 @@
 import { Users, Trophy, Star } from 'lucide-react'
 import type { LeadershipRole } from '@/types'
-
-/**
- * [PLACEHOLDER] Nothing here is sourced — replace with real community,
- * mentoring or event-leadership roles, or set `enabled: false` for the
- * `leadership` section in content/sections.ts to remove it entirely.
- */
 export const LEADERSHIP_ROLES: LeadershipRole[] = [
   {
-    _id: '1',
-    title: 'Vice Chair',
-    organisation: 'IEEE CIS PIET',
-    period: 'Jan 2024 - Jul 2025 · 1 yr 7 mos',
-    description:
-      'Led a 15-member student team and helped drive AI/ML initiatives for the student community at PIET.',
-    impact: [
-      'Organized 5+ AI/ML workshops with 200+ attendees across the campus community.',
-      'Mentored students in AI/ML, encouraging research and learning in NLP and computer vision.',
-    ],
-    icon: 'users',
+    _id: '1', title: 'Chairperson', organisation: 'IETE Students’ Forum, SVNIT', period: 'Aug 2022 – Aug 2023',
+    description: 'Served as Chairperson of the IETE Students’ Forum at SVNIT.'
+    impact: ['Previously served as Executive, Finding & Development (Aug 2021 – Aug 2022).'], icon: 'users',
   },
   {
-    _id: '2',
-    title: 'Student Mentor',
-    organisation: 'AI/ML Community Initiatives',
-    period: '2024 - 2025',
-    description:
-      'Supported peer learning and skill-building by guiding students through project-based AI and machine learning work.',
-    impact: [
-      'Helped more students explore practical AI applications beyond classroom theory.',
-      'Promoted collaboration and research-minded problem solving within the community.',
-    ],
-    icon: 'star',
+    _id: '2', title: 'Vice President', organisation: 'Rotaract Club', period: 'During undergraduate studies',
+    description: 'Held the Vice President role at the Rotaract Club.'
+    impact: ['Leadership role listed in the supplied resume.'], icon: 'star',
   },
   {
-    _id: '3',
-    title: 'Community Builder',
-    organisation: 'IEEE CIS PIET',
-    period: '2024 - 2025',
-    description:
-      'Contributed to building an active technical learning culture through workshops, engagement, and student support.',
-    impact: [
-      'Strengthened participation in technical events and hands-on learning experiences.',
-      'Created pathways for students to explore emerging AI and ML domains together.',
-    ],
-    icon: 'trophy',
+    _id: '3', title: 'Head Girl', organisation: 'Mount Litera Zee School', period: 'School leadership',
+    description: 'Served as Head Girl at Mount Litera Zee School.'
+    impact: ['Leadership role listed in the supplied resume.'], icon: 'trophy',
+  },
+  {
+    _id: '4', title: 'Data Science & Analytics Lead', organisation: 'Axestrack', period: 'Current',
+    description: 'Lead the five-member team in the function she helped establish.',
+    impact: ['Conducted 70+ technical interviews, mentors analysts and leads AI enablement workshops.'], icon: 'users',
+  },
+  {
+    _id: '5', title: 'Member', organisation: 'Malang | Akriti | Rubix Crew — CHRD, SVNIT', period: 'Jan 2021 – Jun 2024',
+    description: 'Member of the Dance and Arts Club at SVNIT Surat.',
+    impact: ['Campus involvement during undergraduate studies.'], icon: 'star',
   },
 ]
-
-export const LEADERSHIP_ICON_MAP = {
-  users: Users,
-  trophy: Trophy,
-  star: Star,
-}
+export const LEADERSHIP_ICON_MAP = { users: Users, trophy: Trophy, star: Star }

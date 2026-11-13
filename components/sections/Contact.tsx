@@ -57,7 +57,7 @@ export default function Contact() {
       <SectionHeader
         sectionId="contact"
         title="Get In Touch"
-        subtitle="Have a role, a product, or a problem that needs AI to actually ship? I reply to every message."
+        subtitle="Have a role, a data challenge, or a product idea? Let’s connect."
       />
 
       <div className="grid lg:grid-cols-5 gap-12 items-start">
@@ -66,12 +66,12 @@ export default function Contact() {
           className="lg:col-span-2 space-y-8"
         >
           <div>
-            <h3 className="text-slate-900 dark:text-white font-bold text-xl mb-4">Let&apos;s make something work in production</h3>
+            <h3 className="text-slate-900 dark:text-white font-bold text-xl mb-4">Let&apos;s turn data into decisions</h3>
             <p className="text-slate-600 dark:text-slate-400 leading-relaxed">
               I&apos;m open to conversations about{' '}
               <span className="text-slate-900 dark:text-white font-medium">{SITE.openToRoles.join(', ')}</span>{' '}
-              roles, and to consulting work where the hard part is getting a model into daily use rather than
-              building it in the first place.
+              roles, and to conversations around business intelligence, data engineering, product ownership and workflow
+              automation.
             </p>
           </div>
 
