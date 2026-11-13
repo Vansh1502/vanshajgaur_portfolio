@@ -44,6 +44,11 @@ export default function About() {
             each month, reducing the monthly billing cycle from 30 days to 3, and bringing 40–50 data sources into
             near real-time pipelines.
           </p>
+          <p className="text-slate-600 dark:text-slate-400 leading-relaxed text-left">
+            I hold a B.Tech in Electronics and Communication Engineering from SVNIT Surat (CGPA 8.66/10).
+            Recognition includes the Brainiac Award, HackerRank SQL 4-Star Silver Badge, WomenHack Diva
+            Semi-Finalist and Microsoft Learn Student Ambassador.
+          </p>
 
           <div className="flex flex-wrap gap-2 pt-2">
             {ABOUT_TECH_STACK.map((tech) => (
