@@ -9,6 +9,7 @@ export const EXPERIENCES: Experience[] = [
       'Co-product owner of the internal ERP, covering discovery, business logic, PRDs, UAT and rollout using AI-assisted development.',
       'Own the data layer end to end, including data pipelines, models and API integrations.',
       'Mentor analysts, conduct technical interviews (70+ to date) and lead AI enablement workshops.',
+      'Shipped internal products including CertiQ (5 releases, RBAC for 4 user types, validation, priority scoring and OCR), Playwright automation with a 5-tier geofence engine, and billing/payroll systems supporting 700+ employees.',
       'Recipient of the company-wide Brainiac Award; serve on the Delivery Excellence Committee.',
     ],
     technologies: ['SQL', 'Python', 'PostgreSQL', 'MongoDB', 'Apache Superset', 'Power BI', 'REST APIs', 'ETL', 'AI-Assisted Development'],
