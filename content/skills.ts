@@ -17,6 +17,8 @@ export const SKILLS: Skill[] = [
   { _id: 's15', name: 'Data Modeling', category: 'engineering', tier: 'production' },
   { _id: 's16', name: 'Data Quality', category: 'engineering', tier: 'production' },
   { _id: 's17', name: 'REST APIs & Integrations', category: 'engineering', tier: 'production' },
+  { _id: 's29', name: 'JWT & Google APIs', category: 'engineering', tier: 'production' },
+  { _id: 's30', name: 'Pre-computed Analytics', category: 'engineering', tier: 'production' },
   { _id: 's18', name: 'Google Apps Script', category: 'automation', tier: 'production' },
   { _id: 's19', name: 'VBA', category: 'automation', tier: 'production' },
   { _id: 's20', name: 'Playwright', category: 'automation', tier: 'production' },
