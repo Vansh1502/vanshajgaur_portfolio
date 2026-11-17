@@ -11,7 +11,8 @@ import { NAV_LINKS, SCROLL_SECTION_IDS } from '@/content/sections'
 import { SITE } from '@/lib/site'
 import { EASE_OUT } from '@/lib/motion'
 
-const navLinks = NAV_LINKS.map((s) => ({ label: s.navLabel, href: s.path, id: s.id }))
+const sectionNavLinks = NAV_LINKS.map((s) => ({ label: s.navLabel, href: s.path, id: s.id }))
+const navLinks = [{ label: 'Home', href: '/', id: 'home' }, ...sectionNavLinks]
 
 export default function Navbar() {
   const pathname = usePathname()
@@ -20,11 +21,15 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('')
 
-  const isLinkActive = (link: { href: string; id: string }) =>
-    isHome && SCROLL_SECTION_IDS.has(link.id) ? activeSection === link.id : pathname === link.href
+  const isLinkActive = (link: { href: string; id: string }) => {
+    if (link.id === 'home') return isHome
+    return isHome && SCROLL_SECTION_IDS.has(link.id) ? activeSection === link.id : pathname === link.href
+  }
 
-  const resolveHref = (link: { href: string; id: string }) =>
-    isHome && SCROLL_SECTION_IDS.has(link.id) ? `#${link.id}` : link.href
+  const resolveHref = (link: { href: string; id: string }) => {
+    if (link.id === 'home' && isHome) return '#home'
+    return isHome && SCROLL_SECTION_IDS.has(link.id) ? `#${link.id}` : link.href
+  }
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 30)
@@ -34,7 +39,7 @@ export default function Navbar() {
 
   useEffect(() => {
     if (!isHome) return
-    const sections = navLinks.map((l) => l.id)
+    const sections = sectionNavLinks.map((l) => l.id)
     const observers: IntersectionObserver[] = []
     sections.forEach((id) => {
       const el = document.getElementById(id)

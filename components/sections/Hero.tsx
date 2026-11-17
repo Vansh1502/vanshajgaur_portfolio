@@ -74,7 +74,7 @@ export default function Hero() {
   }, [displayed, isDeleting, roleIndex, reducedMotion])
 
   return (
-    <section ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section id="home" ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <div className="ambient-glow" aria-hidden="true" />
 
       <motion.div
