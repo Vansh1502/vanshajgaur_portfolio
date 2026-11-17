@@ -57,11 +57,10 @@ export default function About() {
                 href={RESUME.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                download
                 variant="secondary"
                 className="text-sm"
               >
-                Download Resume
+                View / Download Resume
               </Button>
             </div>
           )}
