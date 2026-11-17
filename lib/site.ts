@@ -61,9 +61,8 @@ export const SITE = {
     // [PLACEHOLDER] empty values are filtered out of the UI entirely.
     github: '',
   },
-  // [PLACEHOLDER] a public resume link (Drive, Dropbox, etc.).
-  // Set NEXT_PUBLIC_RESUME_URL in production/local env to show the resume download CTA.
-  resumeUrl: process.env.NEXT_PUBLIC_RESUME_URL ?? '',
+  // Resume supplied by Vanshaj; served from the site's public directory.
+  resumeUrl: '/resume.pdf',
 } as const
 
 /** Alma mater used in JSON-LD. [PLACEHOLDER] — omitted until confirmed. */

@@ -2,7 +2,7 @@
 
 import { useRef, useState } from 'react'
 import { motion } from 'framer-motion'
-import { Mail, MapPin, Send } from 'lucide-react'
+import { Mail, MapPin, Send, FileText } from 'lucide-react'
 import toast from 'react-hot-toast'
 import SectionHeader from '@/components/ui/SectionHeader'
 import Button from '@/components/ui/Button'
@@ -95,6 +95,21 @@ export default function Contact() {
               </div>
             ))}
           </div>
+
+          {SITE.resumeUrl && (
+            <div>
+              <Button
+                as="a"
+                href={SITE.resumeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                variant="secondary"
+                className="text-sm"
+              >
+                View / Download Resume <FileText size={16} />
+              </Button>
+            </div>
+          )}
 
           {PROFILE_LINKS.length > 0 && (
             <div>

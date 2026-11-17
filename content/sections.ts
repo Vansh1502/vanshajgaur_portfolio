@@ -18,7 +18,7 @@ export const SECTIONS: SectionMeta[] = [
   { id: 'experience', path: '/experience', navLabel: 'Experience', enabled: true, inNav: true },
   { id: 'skills', path: '/skills', navLabel: 'Skills', enabled: true, inNav: true },
   { id: 'leadership', path: '/leadership', navLabel: 'Leadership', enabled: true, inNav: false },
-  { id: 'certifications', path: '/certifications', navLabel: 'Certifications', enabled: true, inNav: true },
+  { id: 'certifications', path: '/certifications', navLabel: 'Certifications', enabled: false, inNav: false },
   { id: 'contact', path: '/contact', navLabel: 'Contact', enabled: true, inNav: true },
 ]
 
