@@ -4,6 +4,7 @@ export const EXPERIENCES: Experience[] = [
   {
     _id: '1',
     company: 'Axestrack Software Solutions Pvt. Ltd.',
+    location: 'Jaipur, Rajasthan',
     role: 'AI Solutions & Implementation Engineer',
     description:
       'Designed and implemented conversational AI solutions while supporting enterprise integration, client onboarding, testing, deployment, and operational analysis.',

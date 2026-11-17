@@ -74,6 +74,13 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         <h3 className="card-title text-slate-900 dark:text-white mb-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
           {project.title}
         </h3>
+        {project.status && (
+          <div className="mb-3">
+            <Badge tone={project.status === 'Completed' ? 'green' : project.status === 'Planned' ? 'yellow' : 'blue'}>
+              {project.status}
+            </Badge>
+          </div>
+        )}
         <p className="card-body text-slate-600 dark:text-slate-400 mb-4 text-left">{project.description}</p>
 
         <div className="flex flex-wrap gap-1.5 mb-5">
@@ -91,6 +98,10 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
               className="flex items-center gap-1.5 text-slate-600 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-500/60 focus-visible:ring-offset-2 rounded">
               <Github size={15} /> Code
             </a>
+          ) : project.githubComingSoon ? (
+            <span className="flex items-center gap-1.5 text-slate-500 dark:text-slate-500 text-sm">
+              <Github size={15} /> Coming Soon
+            </span>
           ) : <span />}
           {project.liveUrl ? (
             <a href={project.liveUrl} target="_blank" rel="noopener noreferrer"

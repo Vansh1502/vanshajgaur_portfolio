@@ -7,6 +7,8 @@ export interface Project {
   technologies: string[]
   liveUrl?: string
   githubUrl?: string
+  githubComingSoon?: boolean
+  status?: 'Completed' | 'In Progress — Planned' | 'Planned'
   imageUrl?: string
   featured: boolean
   order: number
@@ -15,6 +17,7 @@ export interface Project {
 export interface Experience {
   _id: string
   company: string
+  location?: string
   role: string
   description: string
   responsibilities: string[]

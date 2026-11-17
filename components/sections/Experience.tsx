@@ -63,6 +63,9 @@ export default function Experience() {
                           {exp.role}
                         </h3>
                         <p className="text-blue-700 dark:text-blue-400 font-semibold">{exp.company}</p>
+                        {exp.location && (
+                          <p className="text-slate-500 dark:text-slate-400 text-xs mt-0.5">{exp.location}</p>
+                        )}
                       </div>
                       {exp.current && <Badge tone="green" className="shrink-0">Current</Badge>}
                     </div>
